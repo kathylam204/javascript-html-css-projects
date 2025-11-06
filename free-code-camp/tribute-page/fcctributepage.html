@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <style>
+        #main {
+            text-align: center; /* Center text */
+            padding: 20px; /* Add some padding */
+            font-family: Arial, sans-serif; /* Set font */
+        }
+
+        #img-div {
+            display: inline-block; /* Make the img-div a block-level element */
+            margin: 20px auto; /* Centering img-div */
+        }
+
+        #image {
+            display: block; /* Make the image a block element */
+            max-width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        #img-caption {
+            margin-top: 10px; /* Space between image and caption */
+            font-style: italic; /* Italicize caption */
+        }
+
+        #tribute-info {
+            margin-top: 20px; /* Space above tribute info */
+        }
+
+        #tribute-link {
+            display: inline-block; /* Make the link inline */
+            margin-top: 10px; /* Space above the link */
+            color: blue; /* Link color */
+            text-decoration: none; /* Remove underline */
+        }
+
+        #tribute-link:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+
+<main id="main">
+    <h1 id="title">In Tribute to Alan Turing</h1>
+    <div id="img-div">
+        <img id="image" src="https://example.com/alan_turing.jpg" alt="Alan Turing">
+        <div id="img-caption">Alan Turing, pioneer of computer science.</div>
+    </div>
+    <div id="tribute-info">
+        Alan Turing was a British mathematician and computer scientist who played a key role in the development of theoretical computer science.
+    </div>
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Alan_Turing" target="_blank">Learn more about Alan Turing</a>
+</main>
+
+</body>
+</html>
